@@ -12,17 +12,12 @@
 
 | 部件 | 型号 | 说明 |
 |---|---|---|
-| 主板 | Z790（七彩虹） | Intel Z790 芯片组 |
-| CPU | Intel Core i5-12600KF | 6P + 4E，10 核 16 线程，无核显 |
-| 显卡 | AMD Radeon RX 6700 XT 12GB | `0x1002:0x73DF`，Navi 22，需 NootRX |
-| 内存 | DDR5 | |
-| 无线 | Intel AX201 | CNVi 接口，`8086:7AF0` |
-| 有线 | Intel I225-V | `8086:15F3` |
-| 声卡 | Realtek ALC897 | `layout-id = 11` |
-| 存储 | NVMe SSD | |
-| 显示器 | 2560×1440 | DisplayPort 连接 |
-
-**SMBIOS**：`MacPro7,1`（无核显机型，配合 i5-12600KF 使用）
+| 主板 | CVN Z790M FROZEN V20
+| CPU | Intel Core i5-12600KF 
+| 显卡 | AMD Radeon RX 6700 XT 12GB 
+| 无线 | Intel AX201 
+| 有线 | Intel I225-V 
+| 声卡 | Realtek ALC897 
 
 ---
 
