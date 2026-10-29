@@ -170,23 +170,26 @@ EFI/
 ├── OpenCore.efi
 ├── config.plist      # ★ 已脱敏，使用前换三码
 └── oldConfig.plist   # 历史配置存档（同样已脱敏）
-Tools/
-└── GPUMonitor/       # 显卡监控小工具（见下）
 ```
 
 **Kernel 注入 18 项启用 / 21 项总计**，默认禁用：`IOSkywalkFamily.kext`、`IO80211FamilyLegacy.kext`、`AirportItlwm_Sequoia.kext`。
 
 ---
 
-## 工具：GPU Monitor
+## 配套工具：GPU Monitor
 
 macOS 上没有任何现成软件能完整显示 AMD 显卡的功耗、频率、温度
 （实测 Stats 3.0.23 的 GPU 模块只实现了使用率和显存频率两个字段）。
 
-这个菜单栏小工具直接读 `IOKit` 注册表里的 `PerformanceStatistics` 字典，
+配套的菜单栏小工具直接读 `IOKit` 注册表里的 `PerformanceStatistics` 字典，
 **不需要 root、不需要后台守护进程**，每次读取仅 0.7 毫秒。
 
-详见 [Tools/GPUMonitor/README.md](Tools/GPUMonitor/README.md)。
+它已独立成仓库：**[xiaoji12/gpu-monitor](https://github.com/xiaoji12/gpu-monitor)**
+
+```bash
+git clone https://github.com/xiaoji12/gpu-monitor.git
+cd gpu-monitor && ./build.sh --install
+```
 
 ---
 
