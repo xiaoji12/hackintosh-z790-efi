@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+._*
+.fseventsd
+Spotlight-V100
+Trashes
+
+# 本地备份文件（不纳入版本控制）
+*.bak
+*.bak_*
+*.backup
+oldConfig.plist.orig
+
+# 编译产物
+Tools/GPUMonitor/GPUMonitor
+Tools/GPUMonitor/*.o
+Tools/GPUMonitor/*.dSYM
+
+# Python
+__pycache__/
+*.pyc
+
+# 临时文件
+*.tmp
+*.log
