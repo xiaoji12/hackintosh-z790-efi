@@ -11,7 +11,7 @@
 ## 硬件配置
 
 | 部件 | 型号 |
-|---|---|---|
+|---|---|
 | 主板 | CVN Z790M FROZEN V20
 | CPU | Intel Core i5-12600KF 
 | 显卡 | AMD Radeon RX 6700 XT 12GB 
